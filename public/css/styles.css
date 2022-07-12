@@ -68,10 +68,12 @@ div.row.pos {
 .navbar-nav .show>.nav-link,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #CA9F5C;
+    background: #121212;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #CA9F5C;
+    background: #121212;
 }
 
 
@@ -300,6 +302,12 @@ i.cl{
     padding-bottom: 5%;
     background: rgba(62, 62, 62, 0.548) url(../images/sea-border.jpg);
     background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+    box-shadow: 0 0 0 0 #ffffff;
+
 
 
 }
